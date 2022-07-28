@@ -3,6 +3,7 @@ from django.shortcuts import render
 
 def home(request):
     packages = [
+	{'name':'BlastRadius', 'url': 'http://pypi.python.org/pypi/BlastRadius/0.1.6'},
 	{'name':'blargparse', 'url': 'http://pypi.python.org/pypi/blargparse/0.0.3'},
 	{'name':'blargs', 'url': 'http://pypi.python.org/pypi/blargs/0.2.29b'},
 	{'name':'chainercmd', 'url': 'http://pypi.python.org/pypi/chainercmd/3.1.0a2'},

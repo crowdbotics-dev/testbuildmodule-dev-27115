@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "6402c050a334f5db7ef38f77f2853d2ffed54bb2c8d9b85fe97dee051be566f5"
+            "sha256": "2923bd17a94170d574743c8631ff9bcec8c1094399c28bb210e54afde62040ed"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -45,6 +45,13 @@
             ],
             "index": "pypi",
             "version": "==0.1"
+        },
+        "blastradius": {
+            "hashes": [
+                "sha256:7014bffb6ff252b0e3d910314c24073e5ac978385c217a5790730ec7eefef40c"
+            ],
+            "index": "pypi",
+            "version": "==0.1.23"
         },
         "boto3": {
             "hashes": [
@@ -432,7 +439,9 @@
             "version": "==4.34.4"
         },
         "google-api-core": {
-            "extras": [],
+            "extras": [
+                "grpc"
+            ],
             "hashes": [
                 "sha256:06f7244c640322b508b125903bb5701bebabce8832f85aba9335ec00b3d02edc",
                 "sha256:93c6a91ccac79079ac6bbf8b74ee75db970cc899278b97d53bc012f35908cf50"
@@ -1105,6 +1114,12 @@
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==2.21"
+        },
+        "pyhcl": {
+            "hashes": [
+                "sha256:2d9b9dcdf1023d812bfed561ba72c99104c5b3f52e558d595130a44ce081b003"
+            ],
+            "version": "==0.4.4"
         },
         "pyjwt": {
             "extras": [
