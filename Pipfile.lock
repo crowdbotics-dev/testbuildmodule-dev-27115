@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ed331ce9ecb90c35128c1784075ed488a98288afa9b250e277819db2e5ffc364"
+            "sha256": "6402c050a334f5db7ef38f77f2853d2ffed54bb2c8d9b85fe97dee051be566f5"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -31,6 +31,13 @@
             ],
             "markers": "python_version >= '3.6'",
             "version": "==4.11.1"
+        },
+        "blargparse": {
+            "hashes": [
+                "sha256:7592d9607d48242cff024c2d4da798e5ee27f65864709392b7690f6bd397611c"
+            ],
+            "index": "pypi",
+            "version": "==0.0.3"
         },
         "blargs": {
             "hashes": [
@@ -425,9 +432,7 @@
             "version": "==4.34.4"
         },
         "google-api-core": {
-            "extras": [
-                "grpc"
-            ],
+            "extras": [],
             "hashes": [
                 "sha256:06f7244c640322b508b125903bb5701bebabce8832f85aba9335ec00b3d02edc",
                 "sha256:93c6a91ccac79079ac6bbf8b74ee75db970cc899278b97d53bc012f35908cf50"
