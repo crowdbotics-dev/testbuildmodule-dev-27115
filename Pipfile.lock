@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "b85e12ea1924d3154442b259f616de2427d35aa0173f28d8118d8fdc823492ee"
+            "sha256": "2445e08e0b2dc0f45af33f31d69deba40a26ef4229d072a366d5840f172215ba"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -38,13 +38,6 @@
             ],
             "index": "pypi",
             "version": "==0.0.3"
-        },
-        "blargs": {
-            "hashes": [
-                "sha256:6601ea99b332ea359475766e49fde74d5933cf0c66eb7f11333cad855bc5b401"
-            ],
-            "index": "pypi",
-            "version": "==0.1"
         },
         "blastradius": {
             "hashes": [
@@ -454,7 +447,9 @@
             "version": "==4.34.4"
         },
         "google-api-core": {
-            "extras": [],
+            "extras": [
+                "grpc"
+            ],
             "hashes": [
                 "sha256:06f7244c640322b508b125903bb5701bebabce8832f85aba9335ec00b3d02edc",
                 "sha256:93c6a91ccac79079ac6bbf8b74ee75db970cc899278b97d53bc012f35908cf50"
