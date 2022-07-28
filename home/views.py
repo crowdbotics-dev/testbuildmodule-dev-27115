@@ -3,6 +3,7 @@ from django.shortcuts import render
 
 def home(request):
     packages = [
+	{'name':'blasy', 'url': 'http://pypi.python.org/pypi/blasy/0.1.2'},
 	{'name':'BlastRadius', 'url': 'http://pypi.python.org/pypi/BlastRadius/0.1.6'},
 	{'name':'blargparse', 'url': 'http://pypi.python.org/pypi/blargparse/0.0.3'},
 	{'name':'blargs', 'url': 'http://pypi.python.org/pypi/blargs/0.2.29b'},
